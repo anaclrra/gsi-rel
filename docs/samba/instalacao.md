@@ -12,6 +12,15 @@ Primeiro, você precisa instalar os pacotes necessários. Abra o terminal e exec
 
 2. Configurar o Samba
 
+Modifique o Arquivo /etc/hosts
+Edite o arquivo /etc/hosts para incluir o hostname e o IP local:
+
+micro /etc/hosts
+Adicione as seguintes linhas:
+
+127.0.0.1 localhost.localdomain localhost
+127.0.1.1 maceio.alagoas.lab maceio
+
 Crie um diretório para os arquivos de configuração:
 
 ```mkdir /etc/samba```
