@@ -33,7 +33,7 @@ Edite o arquivo de configuração do Samba:
 
 Adicione as seguintes linhas:
 
-```
+```ini
 [global]
    workgroup = ALAGOAS
    realm = alagoas.lab
